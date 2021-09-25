@@ -1,0 +1,89 @@
+.box{
+    height:auto;
+    width:auto;
+}
+
+hr{
+    border:1px solid black;
+    margin:5px 0px;
+}
+.col_padding{
+    padding:0px 0px;
+}
+.container{
+    padding:50px 50px;
+    border:1px solid black;
+    height:auto;
+}
+h1{
+    font-size:70px;
+    font-family:sans-serif;
+    text-align:justify;
+    text-justify: distribute;
+    font-weight:bolder;
+}
+.redtag{
+    width: 200px;
+    color:white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+     background: linear-gradient(265deg,transparent 50%,rgba(186, 39, 55, 1) 50%, rgba(186, 39, 55, 1) 50%);
+    padding:5px;
+    
+}
+p{
+ font-size: 15px;
+ text-align: justify;
+}
+
+.picture{
+    min-width:155px;
+    min-height:175px;
+    background-color: lightgray;
+    
+}
+.h3_align_center{
+    text-align: center;
+    color:darkred;
+}
+.bigpicture{
+    min-height:520px;
+    min-width:250px;
+    background-color: lightgray;
+}
+.padding_around{
+    padding:10px;
+}
+.padding_top_bottom{
+ padding:30px 0px;
+}
+
+.parent{
+    position:relative;
+    height:230px;
+    width:100%
+}
+.child1{
+    position:absolute;
+    left:0;
+    top: 0px;
+    
+    
+}
+.child2{
+    position:absolute;
+    left:0;
+    top:20px;
+    width:100%;
+    
+}
+
+h3,h5{
+    font-weight: bold;
+}
+@media screen and (min-width: 480px) {
+h1 {
+font-size:97px ;
+}
+}
